@@ -24,6 +24,7 @@ int main()
     for (int i = 0; i < n; i++)
         scanf("%d", &arr[i]);
     scanf("%d", &k);
+    
     sort(arr, n);
     largest(arr, k, n);
     smallest(arr, k, n);
